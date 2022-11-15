@@ -3,11 +3,18 @@
 
 class Square {
 	private:
-			int side;
+			int altura;
+			int anchura;
 
 	public:
-			Square(int side);
-			int area();
+			Square(int altura, int anchura);
+			int getAncho();
+			int getAlto();
+			void setAlto(int altura);
+			void setAncho(int anchura);
+			int getPerimetro();
+			int getArea();
+			void dibuja();
 };
 
 #endif
